@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LJViewController : UIViewController
+@interface LJViewController : UIViewController <UITextFieldDelegate>
+
+@property IBOutlet UITextField *inputNumber;
+@property IBOutlet UILabel *result;
+@property IBOutlet UILabel *count;
+@property IBOutlet UIButton *guess;
 
 @end
